@@ -1,62 +1,87 @@
-
-header {
-	width: 100%;
-	border: solid;
+#container {
+   margin: 0 auto;
+   width: 1000px;
 }
-span {
 
-	border: solid;
-	background-color: #e8e8e8;
+#img {
+  text-align: center;
+     margin-bottom: 1em;
+           height:  3em;
+}
+#nav {
+     background: lightgrey;
+   float: left;
+   height:  5%;
+   width: 100%;
+   text-align:  center;
+      margin-bottom: 2%;
+}
 
+#content {
+   float: left;
+   background: #FFFFFF;
+   width: 700px;
 
 }
-div {
-	width: 100% ;
-	border:  solid;
-	background-color: #e8e8e8;
+
+#feature {
+   background: lightgrey;
+     height:  3em;
+   width: 100%;
+   float: left;  
+   text-align:  center;
+   margin-bottom: 2%;
 }
+
+#column1 {
+   background: lightgrey;
+   height:  3em;
+   width: 32%;
+   float: left;  
+   text-align:  center;
+      margin-bottom: 2%;
+      line-height: 3em;
+}
+
+#column2 {
+   background: lightgrey;
+      height:  3em;
+   width: 32%;
+   float: left;
+   text-align:  center;
+    margin-bottom: 2%;
+    margin-left:  2%;
+    margin-right:  2%;
+    line-height: 3em;
+}
+
+#column3 {
+   background: lightgrey;
+      height:  3em;
+   width: 32%;
+   float: left;
+   text-align:  center;
+      margin-bottom: 2%;
+      line-height: 3em;
+}
+
 #columns {
-	width: 100% ;
-	border:  solid;
-	padding-left:  500px;
-	float:  left;
-	margin:  0;
 
 }
-footer {
-	width: 100%;
-	border:  solid;
-	background-color: #e8e8e8;
-}
-nav {
-	border: solid;
-	width: 100%;
-}
-ul {
-       list-style-type: none;
-       margin: 0; /*sets all the margin properties*/
-       padding: 0;
-        /*used to generate space around content*/
-       padding-left: 500px;
-    
-       overflow: hidden; /*whether to clip content or to add scrollbars */
-       background-color: #e8e8e8;
-       top: 0.5em;
-       width: 100%;
-   }
-     li {
-       float: left;
-       text-align: center;
-   
 
-     }
-      li a {
-       display: block;
-       color: black;
-       text-align: center;
-       padding: 14px 16px;
-       text-decoration: none;
-     }
-     p {
-     	text-align: center;
-     }
+#footer {
+   background: lightgrey;
+   width: 100%;
+         height:  3em;
+   clear: both;
+   text-align:  center;
+      margin-bottom: 2%;
+      line-height: 3em;
+}
+
+li {
+  display:  inline-block;
+  color:  black;
+  padding-left:  0.5em;
+    padding-right:  0.5em;
+}
