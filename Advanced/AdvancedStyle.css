@@ -1,0 +1,62 @@
+
+header {
+	width: 100%;
+	border: solid;
+}
+span {
+
+	border: solid;
+	background-color: #e8e8e8;
+
+
+}
+div {
+	width: 100% ;
+	border:  solid;
+	background-color: #e8e8e8;
+}
+#columns {
+	width: 100% ;
+	border:  solid;
+	padding-left:  500px;
+	float:  left;
+	margin:  0;
+
+}
+footer {
+	width: 100%;
+	border:  solid;
+	background-color: #e8e8e8;
+}
+nav {
+	border: solid;
+	width: 100%;
+}
+ul {
+       list-style-type: none;
+       margin: 0; /*sets all the margin properties*/
+       padding: 0;
+        /*used to generate space around content*/
+       padding-left: 500px;
+    
+       overflow: hidden; /*whether to clip content or to add scrollbars */
+       background-color: #e8e8e8;
+       top: 0.5em;
+       width: 100%;
+   }
+     li {
+       float: left;
+       text-align: center;
+   
+
+     }
+      li a {
+       display: block;
+       color: black;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+     }
+     p {
+     	text-align: center;
+     }
